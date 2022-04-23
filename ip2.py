@@ -31,6 +31,7 @@ chs = """
 if ch == 'y':
     time.sleep(0.5)
     os.system("clear")
+    os.system("toilet -F border --metal -f mono12 IP2")
     print(banner)
     print("Let's track ip address")
     print(chs)
@@ -39,6 +40,7 @@ elif ch == 'n':
     print("ok")
     time.sleep(1)
     os.system("clear")
+    os.system("toilet -F border --metal -f mono12 IP2")
     print(banner)
     print("Let's track ip address")
 else:
