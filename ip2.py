@@ -6,7 +6,7 @@ import os
 os.system("apt install curl")
 os.system("clear")
 banner = """
-              [+]Ip Tracker[+]
+               [+]IP-TRACKER[+]
      ___________________________________
     |Author : Mika259                   |
     |Github : https://github.com/Mika259|
@@ -18,6 +18,7 @@ want to see process :
 [y]yes         [n]no
 """
 os.system("clear")
+os.system("toilet -F border --metal -f mono12 IP2")
 print(banner)
 print("Let's track ip address")
 print(prs)
